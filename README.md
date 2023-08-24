@@ -28,3 +28,11 @@ Jest
 ```sh
 npm install --save-dev jest
 ```
+
+<br>
+
+## Running Unit Tests
+
+```sh
+npm run test
+```

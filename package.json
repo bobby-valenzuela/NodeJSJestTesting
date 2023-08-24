@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack app.js --mode development --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-og": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest"
   },
   "keywords": [
     "js",
@@ -19,7 +20,7 @@
     "e2e",
     "tests"
   ],
-  "author": "Maximilian Schwarzmüller/ Academind GmbH",
+  "author": "Bobby Valenzuela",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.6.3",
